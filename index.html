@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project | Home</title>
+    <link rel="stylesheet" href="./dist/css/index.css">
+</head>
+<body>
+    <div class="warning">
+        <label>
+            information- this site is still in development phase, but you can use it officially and All
+            Rights Reserved &copy;counterbox 2022...
+        </label>
+    </div>
+    <section class="mainhead">
+        <div class="flex-item">
+            <h1>counterbox.com</h1>
+            <p>Count your word and character for social media...</p>
+        </div>
+        <div class="flex-item ">
+            <div class="content-box">
+                <div>
+                    <input type="submit" class="submit" value="copy"  onclick="copyData()">
+                    <span class="submit output"><label id="words"></label></span>
+                    <span class="submit output"><label id="letters"></label></span>
+                </div>
+                <textarea rows="15" id="textBox" onkeypress="outcome()"></textarea><br>
+            </div>
+        </div>
+    </section>  
+    <script src="./dist/js/index.js"></script>
+</body>
+</html>
